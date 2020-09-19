@@ -1,0 +1,27 @@
+.heading{
+    padding: 20px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.heading h2 {
+    text-align: center;
+}
+
+.products {
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    padding: 42px;
+}
+
+@media screen and (max-width: 400px) {
+    .products {
+        width: 90%;
+        height: 2500px;
+        margin: 0;
+        margin-top: 50px;
+        padding: 0px;
+    }
+}
