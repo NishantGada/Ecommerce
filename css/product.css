@@ -1,0 +1,158 @@
+h2 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 80px 20px 40px 20px;
+}
+
+#product-section {
+    /* border: 1px solid black; */
+    max-height: 100%;
+    margin-bottom: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-image-grid {
+    /* border: 1px solid black; */
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#product-image-grid img {
+    max-width: 40%;
+    margin: 20px;
+}
+
+#product-info {
+    /* border: 1px solid black; */
+    width: 40%;    
+    padding: 40px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#product-info p {
+    text-align: justify;
+}
+
+#product-info button {
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 70%;
+    padding: 18px;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    background-color: #343A40;
+}
+
+#product-description {
+    margin-bottom: 0;
+}
+
+#product-description span {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#product-category {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+#product-price {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 360px) {
+
+    #product-section {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #product-image-grid {
+        width: 90%;
+        margin: auto;
+    }
+
+    #product-image-grid img {
+        max-width: 90%;
+    }
+
+    #product-info {
+        width: 90%;
+        padding: 40px 10px;
+        margin: auto;    
+    }
+    
+    #product-description {
+        margin-bottom: 20px;
+    }
+    
+    #product-category {
+        margin-bottom: 20px;
+    }
+    
+    #product-price {
+        margin-bottom: 20px;
+    }
+
+    #product-info button {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #product-section {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #product-image-grid {
+        width: 90%;
+        margin: auto;
+    }
+
+    #product-image-grid img {
+        max-width: 75%;
+    }
+
+    #product-info {
+        width: 95%;
+        margin: auto;    
+    }
+
+    #product-description {
+        margin-bottom: 20px;
+    }
+    
+    #product-category {
+        margin-bottom: 20px;
+    }
+    
+    #product-price {
+        margin-bottom: 20px;
+    }
+
+    #product-info button {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 80%;
+    }
+}
